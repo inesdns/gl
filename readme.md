@@ -1,7 +1,7 @@
 # Prerequisites
 - Install [Docker](https://www.docker.com/)
 - Install [Docker Compose](https://docs.docker.com/compose/install/)
-- git clone
+- git clone https://github.com/inesdns/test.git
 - install requirement.txt
 
 # Usage
