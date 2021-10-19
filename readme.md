@@ -31,7 +31,7 @@ Port = 5432
 Username = airflow
 Password = airflow
 ```
-Data on DB 1 located on `airflow.retail.user_purchase`
+Data on DB 1 is located on `airflow.retail.user_purchase`
 
 ```
 DB 2
@@ -40,7 +40,7 @@ Port = 1234
 Username = postgres
 Password = postgres
 ```
-Data on DB 2 located on `test.retail.user_purchase`
+Data on DB 2 will be located on `test.retail.user_purchase`
 
 ## Checking Data
 please run `docker exec -e "PGOPTIONS=--search_path=retail" -it postgresY psql -U postgres test`
