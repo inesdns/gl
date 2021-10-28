@@ -45,8 +45,8 @@ Data on DB 2 will be located on `test.retail.user_purchase`
 ## DAG
 ```
 Check http://localhost:5884
-username : `airflow`
-password : `airflow`
+username : airflow
+password : airflow
 ```
 Toggle the button on the right side, the Airflow job will run automatically. You can trigger the play button if you want to re-run the job (the result is just the same)
 
