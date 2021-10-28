@@ -43,7 +43,7 @@ Password = postgres
 Data on DB 2 will be located on `test.retail.user_purchase`
 
 ## DAG
-````
+```
 Check http://localhost:5884
 username : `airflow`
 password : `airflow`
