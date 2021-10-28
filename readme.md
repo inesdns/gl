@@ -42,6 +42,12 @@ Password = postgres
 ```
 Data on DB 2 will be located on `test.retail.user_purchase`
 
+## DAG
+Check http://localhost:5884
+username : `airflow`
+password : `airflow`
+Toggle the button on the right side, the Airflow job will run automatically. You can trigger the play button if you want to re-run the job (the result is just the same)
+
 ## Checking Data
 please run `docker exec -e "PGOPTIONS=--search_path=retail" -it postgresY psql -U postgres test`
 Sample query to inspect the data of secondary database (target database):
@@ -55,10 +61,6 @@ If you want to check the data from primary database, please run
 `docker exec -e "PGOPTIONS=--search_path=retail" -it gl_postgres_1 psql -U airflow airflow`
 You can run the same queries as above to compare value
 
-## DAG
-Check http://localhost:5884
-username : `airflow`
-password : `airflow`
 
 ## Tearing down
 To tear down, please run `chmod +x teardown.sh && ./teardown.sh` This will stop and remove airflow and postgresY
