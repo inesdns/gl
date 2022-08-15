@@ -1,7 +1,6 @@
 # Prerequisites
 - Install [Docker](https://www.docker.com/)
 - Install [Docker Compose](https://docs.docker.com/compose/install/)
-- git clone https://github.com/inesdns/gl.git
 - install requirement.txt
 
 # Usage
